@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
-          © {new Date().getFullYear()}, Built by
+          © {new Date().getFullYear()}, Desenvolvido por
           {` `}
           <a href="https://github.com/cordeirolucas42">Lucas Cordeiro</a>
         </footer>
