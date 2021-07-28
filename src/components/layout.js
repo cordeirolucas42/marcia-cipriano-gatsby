@@ -8,12 +8,22 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import Header from "./header"
-import "./layout.css"
+
+import { StaticImage } from "gatsby-plugin-image"
+// import "./styles.css"
+// import "./layout.css"
 
 const Layout = ({ children }) => {
   return (
     <>
-      <Header siteTitle={"Fala Voz"} />
+      <Header siteTitle={"Fala Voz - Encarando O Medo De Se Expressar"} />      
+      <StaticImage
+        src="../images/marcia-banner.jpg"
+        quality={95}
+        formats={["AUTO", "JPEG", "WEBP", "AVIF"]}
+        alt="Cartaz Fala Voz"
+        style={{ marginBottom: `1.45rem`, width: `100%` }}
+      />
       <div
         style={{
           margin: `0 auto`,
@@ -24,7 +34,8 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer
           style={{
-            marginTop: `2rem`,
+            margin: `5rem 0`,
+            borderTop: `1px solid black`
           }}
         >
           © {new Date().getFullYear()}, Desenvolvido por
