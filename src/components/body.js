@@ -52,9 +52,10 @@ const Body = () => {
             width = {250}
             quality = {95}
             formats={["AUTO", "JPEG", "WEBP", "AVIF"]}
-            alt="Cartaz Fala Voz"
+            alt="Foto da facilitadora Márcia Cipriano"
             style={{ marginBottom: `1.45rem`, borderRadius: '50%' }}
             />
+            {/* <img style={{borderRadius: `50%`}} src="../images/marcia-banner.jpg" alt="Foto da facilitadora Márcia Cipriano"></img> */}
             <p>Trabalho com educação há mais de 30 anos e caminhei por muitos lugares profissionalmente. Sou licenciada em Filosofia e mestre em Educação, com especialização em Psicopedagogia e em Orientação Profissional.</p>
             <p>São mais de 20 anos atuando como psicóloga. Sou facilitadora de Biodança há quase 10 anos.</p>
             <p>Seja no papel de psicoterapeuta, palestrante, supervisora, mentora, professora ou facilitadora, me encanta este lugar de favorecer ao outro uma vivência consciente e transformadora nos processos de mudança.</p>
