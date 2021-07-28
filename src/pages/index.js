@@ -10,7 +10,7 @@ import Programacao from "../components/programacao"
 const IndexPage = () => (
   <Layout>
     <Seo title="Imersão Autoconhecimento" />
-    <Body></Body>    
+    <Body></Body>
     <Programacao></Programacao>
   </Layout>
 )

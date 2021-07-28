@@ -1,5 +1,5 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 const Body = () => {
     const o_que_e = (
@@ -47,7 +47,7 @@ const Body = () => {
     const sobre_mim = (
         <section>
             <h2>Sobre mim</h2>
-            <StaticImage
+            <GatsbyImage
             src="../images/marcia-perfil.jpg"
             width = {250}
             quality = {95}
