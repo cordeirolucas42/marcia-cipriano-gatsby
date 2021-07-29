@@ -7,16 +7,16 @@
 
 import * as React from "react"
 import PropTypes from "prop-types"
-import Header from "./header"
+// import Header from "./header"
 
 import { StaticImage } from "gatsby-plugin-image"
-// import "./styles.css"
+import "./styles.css"
 // import "./layout.css"
 
 const Layout = ({ children }) => {
   return (
     <>
-      <Header siteTitle={"Fala Voz - Encarando O Medo De Se Expressar"} />      
+      {/* <Header siteTitle={"Fala Voz - Encarando O Medo De Se Expressar"} /> */}
       <StaticImage
         src="../images/marcia-banner.jpg"
         quality={95}
@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 960,
+          maxWidth: 1200,
           padding: `0 1.0875rem 1.45rem`,
         }}
       >

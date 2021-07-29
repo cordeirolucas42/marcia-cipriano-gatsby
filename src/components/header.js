@@ -1,6 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import "./styles.css"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -20,8 +21,7 @@ const Header = ({ siteTitle }) => (
           to="/"
           style={{
             color: `black`,
-            textDecoration: `none`,
-            fontWeight: `bold`
+            textDecoration: `none`
           }}
         >
           {siteTitle}

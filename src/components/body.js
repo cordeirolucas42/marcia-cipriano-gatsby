@@ -1,16 +1,20 @@
 import * as React from "react"
-import { GatsbyImage } from "gatsby-plugin-image"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Body = () => {
     const o_que_e = (
         <section>
-            <h1>Fale com firmeza em público</h1>
+            <StaticImage
+            className="logoFalaVoz"
+                src="../images/fala_voz.png"
+                alt="Cartaz Fala Voz"
+            />
+            <h2>Fale com firmeza em público</h2>
             <p>Essa imersão é uma oportunidade para você superar a vergonha de se colocar no centro das atenções, nesse lugar em que todos te olham.</p>
             <p>Nessa imersão vou te ajudar a ocupar esse espaço de destaque de forma determinada e potente. Vencendo as barreiras que te impedem de ter coragem e entusiasmo para se expressar de forma autêntica e natural.</p>
             <p>Eu sei que o desafio é grande, mas eu preciso que você confie, seremos parceiros nessa jornada, eu já vive essa dor e tenho uma vasta experiência pessoal e profissional para lidar com desafios de forma responsável e afetiva.</p>
             <p>A metodologia que eu vou utilizar vai te deixar super à vontade para ativar o seu modo coragem e se arriscar a cada exercício. A proposta nesse trabalho é elevar a sua autoestima, liberando a opressão e aflorando em você uma autoaceitação.</p>
             <p>Que você possa se lançar em qualquer que seja o palco que você deseja se manifestar e da forma que você estar. Você já está pronto, basta saber o que vai falar, não precisa mais esperar.</p>
-            {/* <p><a href="https://www.sympla.com.br/fala-voz--encarando-o-medo-de-se-expressar__1293670">Vamos!</a></p> */}
             <p><a class="button-small-text" href="https://www.sympla.com.br/fala-voz--encarando-o-medo-de-se-expressar__1293670" target="_blank" rel="noreferrer"> <img src="https://www.sympla.com.br/images/btn-register-widget.png" alt="Botão para se inscrever no site da Sympla"></img></a></p>
         </section>
     )
@@ -46,15 +50,20 @@ const Body = () => {
     
     const sobre_mim = (
         <section>
+            {/* <div style={{display:"flex",flexFlow:"row nowrap"}}>
+                <StaticImage
+                className="marciaPerfil"
+                    src="../images/marcia-perfil.jpg"
+                    alt="Foto Márcia Cipriano"
+                />
+                <h2>Sobre mim</h2>
+            </div> */}
             <h2>Sobre mim</h2>
-            <GatsbyImage
-            src="../images/marcia-perfil.jpg"
-            width = {250}
-            quality = {95}
-            formats={["AUTO", "JPEG", "WEBP", "AVIF"]}
-            alt="Foto da facilitadora Márcia Cipriano"
-            style={{ marginBottom: `1.45rem`, borderRadius: '50%' }}
-            />
+            <StaticImage
+                className="marciaPerfil"
+                    src="../images/marcia-perfil.jpg"
+                    alt="Foto Márcia Cipriano"
+            />     
             <p>Trabalho com educação há mais de 30 anos e caminhei por muitos lugares profissionalmente. Sou licenciada em Filosofia e mestre em Educação, com especialização em Psicopedagogia e em Orientação Profissional.</p>
             <p>São mais de 20 anos atuando como psicóloga. Sou facilitadora de Biodança há quase 10 anos.</p>
             <p>Seja no papel de psicoterapeuta, palestrante, supervisora, mentora, professora ou facilitadora, me encanta este lugar de favorecer ao outro uma vivência consciente e transformadora nos processos de mudança.</p>
