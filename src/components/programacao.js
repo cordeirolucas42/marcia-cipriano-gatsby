@@ -23,7 +23,7 @@ const Programacao = () => {
                 "Rompendo com a autodesqualificação",
                 "Elevando a autoestima e a autoaceitação",
                 "Encarando a vergonha e ativando o modo coragem",
-                "ráticas para aprender a lidar com o medo"
+                "Práticas para aprender a lidar com o medo"
             ]
         },
         sabado_tarde: {
