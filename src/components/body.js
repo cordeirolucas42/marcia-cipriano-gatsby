@@ -1,6 +1,7 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import Programacao from "../components/programacao"
+import Programacao from "./programacao"
+import Chamada from "./chamada"
 
 const Body = () => {
     const o_que_e = (
@@ -58,6 +59,7 @@ const Body = () => {
     )
     return (
         <>
+        <Chamada></Chamada>
         {o_que_e}
         {para_quem}
         {por_que}
