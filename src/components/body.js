@@ -1,14 +1,11 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import MarciaPerfil from "../images/marcia-perfil.jpg"
+import Programacao from "../components/programacao"
 
 const Body = () => {
     const o_que_e = (
-        <section>
-            <StaticImage
-            className="logoFalaVoz"
-                src="../images/fala_voz.png"
-                alt="Cartaz Fala Voz"
-            />
+        <section className="bodySection">
             <h2>Fale com firmeza em público</h2>
             <p>Essa imersão é uma oportunidade para você superar a vergonha de se colocar no centro das atenções, nesse lugar em que todos te olham.</p>
             <p>Nessa imersão vou te ajudar a ocupar esse espaço de destaque de forma determinada e potente. Vencendo as barreiras que te impedem de ter coragem e entusiasmo para se expressar de forma autêntica e natural.</p>
@@ -20,14 +17,14 @@ const Body = () => {
     )
     
     const para_quem = (
-        <section>
+        <section className="bodySection">
             <h2>Para quem é destinada essa imersão?</h2>
             <p>Qualquer pessoa que queria trabalhar esse sentimento de incapacidade, de insegurança, de desvalor que gera timidez, nervosismo e vergonha para expressar suas ideias, conhecimentos e sentimentos publicamente, e que esteja aberta para encarar o medo e desenvolver o músculo da coragem.</p>
         </section>
     )
     
     const por_que = (
-        <section>
+        <section className="bodySection">
             <h2>Chega de perder oportunidades!</h2>
             <p>Já pensou o que poderia estar fazendo ou vivendo se tivesse uma fala mais envolvente, firme e com paixão? Sem medo de chamar atenção! Já imaginou o que poderia acontecer, se você DECIDIR comunicar e expandir a sua voz?</p>
             <p>São tantas as situações que deixamos de viver, quer seja na vida pessoal ou profissional por não termos coragem de nos posicionarmos publicamente.</p>
@@ -49,21 +46,11 @@ const Body = () => {
     )
     
     const sobre_mim = (
-        <section>
-            {/* <div style={{display:"flex",flexFlow:"row nowrap"}}>
-                <StaticImage
-                className="marciaPerfil"
-                    src="../images/marcia-perfil.jpg"
-                    alt="Foto Márcia Cipriano"
-                />
+        <section className="bodySection">
+            <div className="d-flex flex-column justify-content-center align-items-center">
+                <img className="marciaPerfil" src={MarciaPerfil} alt="Foto Márcia Cipriano"></img>
                 <h2>Sobre mim</h2>
-            </div> */}
-            <h2>Sobre mim</h2>
-            <StaticImage
-                className="marciaPerfil"
-                    src="../images/marcia-perfil.jpg"
-                    alt="Foto Márcia Cipriano"
-            />     
+            </div>
             <p>Trabalho com educação há mais de 30 anos e caminhei por muitos lugares profissionalmente. Sou licenciada em Filosofia e mestre em Educação, com especialização em Psicopedagogia e em Orientação Profissional.</p>
             <p>São mais de 20 anos atuando como psicóloga. Sou facilitadora de Biodança há quase 10 anos.</p>
             <p>Seja no papel de psicoterapeuta, palestrante, supervisora, mentora, professora ou facilitadora, me encanta este lugar de favorecer ao outro uma vivência consciente e transformadora nos processos de mudança.</p>
@@ -75,6 +62,7 @@ const Body = () => {
         {o_que_e}
         {para_quem}
         {por_que}
+        <Programacao></Programacao>
         {sobre_mim}
         </>
     )

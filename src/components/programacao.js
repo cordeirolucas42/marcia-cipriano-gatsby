@@ -1,13 +1,17 @@
 import * as React from "react"
 // import Accordion from "react-bootstrap/Accordion"
+import { Container,Row,Col } from "react-bootstrap"
 
 import 'bootstrap/dist/css/bootstrap.min.css'
+import ThemeIcon from "../images/voice.png"
 
 const Programacao = () => {
     const prog = {
         sexta_noite: {
             titulo: "É impossível não comunicar",
-            dia: "Sexta à noite",
+            data: "03/09",
+            dia: "Sexta-Feira às 18h30",
+            icone: ThemeIcon,
             topicos: [
                 "A voz é uma expressão da identidade",
                 "O valor da escuta no processo de comunicação",
@@ -17,7 +21,9 @@ const Programacao = () => {
         },
         sabado_manha: {
             titulo: "Medo, que bicho é esse?",
-            dia: "Sábado de manhã",
+            data: "04/09",
+            dia: "Sábado às 9h",
+            icone: ThemeIcon,
             topicos: [
                 "Conhecendo e desafiando os medos existenciais",
                 "Rompendo com a autodesqualificação",
@@ -28,7 +34,9 @@ const Programacao = () => {
         },
         sabado_tarde: {
             titulo: "Fale com firmeza",
-            dia: "Sábado à tarde",
+            data: "04/09",
+            dia: "Sábado às 14h",
+            icone: ThemeIcon,
             topicos: [
                 "Os três pilares da expressão verbal",
                 "Como se preparar para uma apresentação",
@@ -38,7 +46,9 @@ const Programacao = () => {
         },
         domingo_manha: {
             titulo: "Chame a sua voz",
-            dia: "Domingo de manhã",
+            data: "05/09",
+            dia: "Domingo às 9h",
+            icone: ThemeIcon,
             topicos: [
                 "Ancorando a mudança e assumindo um posicionamento",
                 "Preparação para a apresentação em grupo com feedback",
@@ -48,37 +58,30 @@ const Programacao = () => {
     }
 
     return (
-        // <>
-        // <Accordion>    
-        //     {Object.keys(prog).map((key,index) => (
-        //         <Accordion.Item eventKey={index.toString()}>
-        //             <Accordion.Header>{prog[key].titulo}</Accordion.Header>
-        //             <Accordion.Body>
-        //             <ul>
-        //                 {prog[key].topicos.map((topico) => (
-        //                     <li>{topico}</li>
-        //                 ))}
-        //             </ul>
-        //             </Accordion.Body>
-        //         </Accordion.Item>
-        //     ))}
-        // </Accordion>
-        // </>
-
-        <>
+        <div className="bodySection">
             <h2>Programação:</h2>
-            {Object.keys(prog).map((key, index) => (
-                <div>
-                    <h4>{prog[key].dia}:</h4>
-                    <h5>"{prog[key].titulo}"</h5>
-                    <ul>
-                        {prog[key].topicos.map((topico) => (
-                            <li>{topico}</li>
-                        ))}
-                    </ul>
-                </div>
-            ))}
-        </>
+            <Container>
+                {Object.keys(prog).map((key, index) => (
+                    <Row xs={1} className="periodBlock">
+                        <Col md={3} className="dateBlock d-flex flex-column justify-content-center align-items-center">
+                            <p className="dateBig">{prog[key].data}</p>
+                            <p className="dateSmall">{prog[key].dia}</p>
+                        </Col>
+                        <Col md={3} className="iconBlock d-flex flex-column justify-content-center align-items-center">
+                            <img className="themeIcon" src={prog[key].icone} alt="ícone pessoa falando"></img>
+                            <p className="themeTitle">{prog[key].titulo}</p>
+                        </Col>
+                        <Col md={6} className="listBlock d-flex flex-column justify-content-center align-items-center">
+                            <ul>
+                                {prog[key].topicos.map((topico) => (
+                                    <li>{topico}</li>
+                                ))}
+                            </ul>
+                        </Col>
+                    </Row>
+                ))}
+            </Container>
+        </div>
     )
 }
 

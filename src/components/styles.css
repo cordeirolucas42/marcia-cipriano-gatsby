@@ -4,13 +4,75 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 h1,h2,h3,h4 {
     font-family: 'Bebas Neue', sans-serif;
-    margin-top: 1em;
+}
+
+p {    
+    text-align: justify;
+    /* font-size: larger; */
+}
+
+.bodySection {
+    max-width: 1200px;
+    padding: 0 2em;
+    margin: 2em auto;
+}
+
+/* TABELA PROGRAMAÇÃO */
+.periodBlock {
+    margin-top: 2em;
+    padding-bottom: 1em;
+    box-shadow: rgba(123, 123, 131, 0.3) 0px 2px 0px 0px;
+}
+
+.dateBig {
+    color: #FFCC0E;
+    font-weight: bolder;
+    font-size: 4em;
+    margin: 0;
+}
+
+.dateSmall {
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0 0 0.5em 0;
+}
+
+.themeIcon {
+    width: 70px;    
+    margin: 0 0 0.5em 0;
+}
+
+.themeTitle {
+    /* color: #e6b710; */
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0 0 0.5em 0;
+}
+
+ul {
+    margin: 0 auto;
+    width: 80%;
 }
 
 li {
-    list-style-type: "→  ";
+    /* list-style-type: "→  "; */
+    list-style-type: "✓  ";
+    
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    line-height: 80px;
+    height: 80px;
+    background-color: rgb(209, 209, 209);
 }
 
 @media (min-width: 600px) {
@@ -22,6 +84,11 @@ li {
     .marciaPerfil {
         width: 150px;
         border-radius: 50%;
+        margin: 1em 0 0 0;
+    }
+
+    .headerImg {
+        height: 200px;
     }
 }
 
@@ -34,6 +101,7 @@ li {
     .marciaPerfil {
         width: 150px;
         border-radius: 50%;
+        margin: 0 0 0.5em 0;
     }
 }
 
