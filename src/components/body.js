@@ -1,5 +1,5 @@
 import * as React from "react"
-import MarciaPerfil from "../images/marcia-perfil.jpg"
+import MarciaPerfil from "../images/marcia-perfil.JPG"
 import Programacao from "../components/programacao"
 
 const Body = () => {
