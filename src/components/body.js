@@ -7,12 +7,12 @@ const Body = () => {
     const o_que_e = (
         <section className="bodySection backgroundB">
             <h2>Fale com firmeza em público</h2>
-            <p>Essa imersão é uma oportunidade para você superar a vergonha de se colocar no centro das atenções, nesse lugar em que todos te olham.</p>
-            <p>Nessa imersão vou te ajudar a ocupar esse espaço de destaque de forma determinada e potente. Vencendo as barreiras que te impedem de ter coragem e entusiasmo para se expressar de forma autêntica e natural.</p>
+            <p>Essa imersão é uma oportunidade para você começar a superar a vergonha de se colocar no centro das atenções, nesse lugar em que todos te olham.</p>
+            <p>Nesse evento vou te ajudar a ocupar esse espaço de destaque de forma determinada e potente. Te convidando a experienciar o modo coragem, se sentindo capaz de se arriscar no palco da vida se expressando de forma autêntica e natural.</p>
             <p>Eu sei que o desafio é grande, mas eu preciso que você confie, seremos parceiros nessa jornada, eu já vive essa dor e tenho uma vasta experiência pessoal e profissional para lidar com desafios de forma responsável e afetiva.</p>
             <p>A metodologia que eu vou utilizar vai te deixar super à vontade para ativar o seu modo coragem e se arriscar a cada exercício. A proposta nesse trabalho é elevar a sua autoestima, liberando a opressão e aflorando em você uma autoaceitação.</p>
             <p>Que você possa se lançar em qualquer que seja o palco que você deseja se manifestar e da forma que você estar. Você já está pronto, basta saber o que vai falar, não precisa mais esperar.</p>
-            <p><a class="button-small-text btn btn-lg" href="https://www.sympla.com.br/fala-voz--encarando-o-medo-de-se-expressar__1293670" target="_blank" rel="noreferrer">QUERO ME INSCREVER</a></p>
+            <a class="button-small-text btn btn-lg" href="https://www.sympla.com.br/fala-voz--encarando-o-medo-de-se-expressar__1293670" target="_blank" rel="noreferrer">QUERO ME INSCREVER</a>
         </section>
     )
     

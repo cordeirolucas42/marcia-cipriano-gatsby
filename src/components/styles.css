@@ -62,7 +62,7 @@ p {
         margin: 1em 0 0 0;
     }
     .bodySection {
-        padding: 2em 20%;
+        padding: 2em 20% 0 20%;
         margin: 0 auto;
     }
 }
@@ -79,7 +79,7 @@ p {
         margin: 0 0 0.5em 0;
     }
     .bodySection {
-        padding: 2em 10%;
+        padding: 2em 10% 0 10%;
         margin: 0 auto;
     }
 }
@@ -90,12 +90,14 @@ p {
     color: #FFCD0C; */
     background-color: black;
     color: #FFCD0C;
+    padding-bottom: 2em;
 }
 
 .backgroundB {
     background-color: #FFCD0C;
     /* color: #1F1F3A; */
-    color: black;
+    color: black;    
+    padding-bottom: 2em;
 }
 
 /* CHAMADA */
