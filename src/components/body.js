@@ -1,5 +1,4 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
 import MarciaPerfil from "../images/marcia-perfil.jpg"
 import Programacao from "../components/programacao"
 
