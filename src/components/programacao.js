@@ -1,9 +1,8 @@
 import * as React from "react"
-// import Accordion from "react-bootstrap/Accordion"
+import { StaticImage } from "gatsby-plugin-image"
 import { Container,Row,Col } from "react-bootstrap"
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import ThemeIcon from "../images/voice.png"
 
 const Programacao = () => {
     const prog = {
@@ -11,7 +10,7 @@ const Programacao = () => {
             titulo: "É impossível não comunicar",
             data: "03/09",
             dia: "Sexta-Feira às 18h30",
-            icone: ThemeIcon,
+            icone: "../images/voice.png",
             topicos: [
                 "A voz é uma expressão da identidade",
                 "O valor da escuta no processo de comunicação",
@@ -23,7 +22,7 @@ const Programacao = () => {
             titulo: "Medo, que bicho é esse?",
             data: "04/09",
             dia: "Sábado às 9h",
-            icone: ThemeIcon,
+            icone: "../images/voice.png",
             topicos: [
                 "Conhecendo e desafiando os medos existenciais",
                 "Rompendo com a autodesqualificação",
@@ -36,7 +35,7 @@ const Programacao = () => {
             titulo: "Fale com firmeza",
             data: "04/09",
             dia: "Sábado às 14h",
-            icone: ThemeIcon,
+            icone: "../images/voice.png",
             topicos: [
                 "Os três pilares da expressão verbal",
                 "Como se preparar para uma apresentação",
@@ -48,7 +47,7 @@ const Programacao = () => {
             titulo: "Chame a sua voz",
             data: "05/09",
             dia: "Domingo às 9h",
-            icone: ThemeIcon,
+            icone: "../images/voice.png",
             topicos: [
                 "Ancorando a mudança e assumindo um posicionamento",
                 "Preparação para a apresentação em grupo com feedback",
@@ -68,7 +67,7 @@ const Programacao = () => {
                             <p className="dateSmall">{prog[key].dia}</p>
                         </Col>
                         <Col md={3} className="iconBlock d-flex flex-column justify-content-center align-items-center">
-                            <img className="themeIcon" src={prog[key].icone} alt="ícone pessoa falando"></img>
+                            <StaticImage className="themeIcon" src={`../images/voice.png`} alt="ícone pessoa falando"></StaticImage>
                             <p className="themeTitle">{prog[key].titulo}</p>
                         </Col>
                         <Col md={6} className="listBlock d-flex flex-column justify-content-center align-items-center">

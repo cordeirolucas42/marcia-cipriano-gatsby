@@ -1,5 +1,5 @@
 import * as React from "react"
-import MarciaPerfil from "../images/marcia-perfil.JPG"
+import { StaticImage } from "gatsby-plugin-image"
 import Programacao from "../components/programacao"
 
 const Body = () => {
@@ -47,7 +47,7 @@ const Body = () => {
     const sobre_mim = (
         <section className="bodySection">
             <div className="d-flex flex-column justify-content-center align-items-center">
-                <img className="marciaPerfil" src={MarciaPerfil} alt="Foto Márcia Cipriano"></img>
+                <StaticImage className="marciaPerfil" src="../images/marcia-perfil.JPG" alt="Foto Márcia Cipriano"></StaticImage>
                 <h2>Sobre mim</h2>
             </div>
             <p>Trabalho com educação há mais de 30 anos e caminhei por muitos lugares profissionalmente. Sou licenciada em Filosofia e mestre em Educação, com especialização em Psicopedagogia e em Orientação Profissional.</p>
