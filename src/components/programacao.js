@@ -1,6 +1,6 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import { Container,Row,Col } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -57,30 +57,83 @@ const Programacao = () => {
     }
 
     return (
-        <div className="bodySection">
+        <section className="bodySection">
             <h2>Programação:</h2>
             <Container>
-                {Object.keys(prog).map((key, index) => (
-                    <Row xs={1} className="periodBlock">
-                        <Col md={3} className="dateBlock d-flex flex-column justify-content-center align-items-center">
-                            <p className="dateBig">{prog[key].data}</p>
-                            <p className="dateSmall">{prog[key].dia}</p>
-                        </Col>
-                        <Col md={3} className="iconBlock d-flex flex-column justify-content-center align-items-center">
-                            <StaticImage className="themeIcon" src={`../images/voice.png`} alt="ícone pessoa falando"></StaticImage>
-                            <p className="themeTitle">{prog[key].titulo}</p>
-                        </Col>
-                        <Col md={6} className="listBlock d-flex flex-column justify-content-center align-items-center">
-                            <ul>
-                                {prog[key].topicos.map((topico) => (
-                                    <li>{topico}</li>
-                                ))}
-                            </ul>
-                        </Col>
-                    </Row>
-                ))}
+                {/* SEXTA A NOITE */}
+                <Row xs={1} className="periodBlock">
+                    <Col md={3} className="dateBlock d-flex flex-column justify-content-center align-items-center">
+                        <p className="dateBig">{prog["sexta_noite"].data}</p>
+                        <p className="dateSmall">{prog["sexta_noite"].dia}</p>
+                    </Col>
+                    <Col md={3} className="iconBlock d-flex flex-column justify-content-center align-items-center">
+                        <StaticImage className="themeIcon" src={`../images/communication.png`} alt="ícone pessoa falando"></StaticImage>
+                        <p className="themeTitle">{prog["sexta_noite"].titulo}</p>
+                    </Col>
+                    <Col md={6} className="listBlock d-flex flex-column justify-content-center align-items-center">
+                        <ul>
+                            {prog["sexta_noite"].topicos.map((topico) => (
+                                <li>{topico}</li>
+                            ))}
+                        </ul>
+                    </Col>
+                </Row>
+                {/* SABADO DE MANHA */}
+                <Row xs={1} className="periodBlock">
+                    <Col md={3} className="dateBlock d-flex flex-column justify-content-center align-items-center">
+                        <p className="dateBig">{prog["sabado_manha"].data}</p>
+                        <p className="dateSmall">{prog["sabado_manha"].dia}</p>
+                    </Col>
+                    <Col md={3} className="iconBlock d-flex flex-column justify-content-center align-items-center">
+                        <StaticImage className="themeIcon" src={`../images/fear.png`} alt="ícone pessoa falando"></StaticImage>
+                        <p className="themeTitle">{prog["sabado_manha"].titulo}</p>
+                    </Col>
+                    <Col md={6} className="listBlock d-flex flex-column justify-content-center align-items-center">
+                        <ul>
+                            {prog["sabado_manha"].topicos.map((topico) => (
+                                <li>{topico}</li>
+                            ))}
+                        </ul>
+                    </Col>
+                </Row>
+                {/* SABADO A TARDE */}
+                <Row xs={1} className="periodBlock">
+                    <Col md={3} className="dateBlock d-flex flex-column justify-content-center align-items-center">
+                        <p className="dateBig">{prog["sabado_tarde"].data}</p>
+                        <p className="dateSmall">{prog["sabado_tarde"].dia}</p>
+                    </Col>
+                    <Col md={3} className="iconBlock d-flex flex-column justify-content-center align-items-center">
+                        <StaticImage className="themeIcon" src={`../images/strength.png`} alt="ícone pessoa falando"></StaticImage>
+                        <p className="themeTitle">{prog["sabado_tarde"].titulo}</p>
+                    </Col>
+                    <Col md={6} className="listBlock d-flex flex-column justify-content-center align-items-center">
+                        <ul>
+                            {prog["sabado_tarde"].topicos.map((topico) => (
+                                <li>{topico}</li>
+                            ))}
+                        </ul>
+                    </Col>
+                </Row>
+                {/* DOMINGO DE MANHÃ */}
+                <Row xs={1} className="periodBlock">
+                    <Col md={3} className="dateBlock d-flex flex-column justify-content-center align-items-center">
+                        <p className="dateBig">{prog["domingo_manha"].data}</p>
+                        <p className="dateSmall">{prog["domingo_manha"].dia}</p>
+                    </Col>
+                    <Col md={3} className="iconBlock d-flex flex-column justify-content-center align-items-center">
+                        <StaticImage className="themeIcon" src={`../images/promotion.png`} alt="ícone pessoa falando"></StaticImage>
+                        <p className="themeTitle">{prog["domingo_manha"].titulo}</p>
+                    </Col>
+                    <Col md={6} className="listBlock d-flex flex-column justify-content-center align-items-center">
+                        <ul>
+                            {prog["domingo_manha"].topicos.map((topico) => (
+                                <li>{topico}</li>
+                            ))}
+                        </ul>
+                    </Col>
+                </Row>
             </Container>
-        </div>
+        </section>
     )
 }
 

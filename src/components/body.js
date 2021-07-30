@@ -5,25 +5,26 @@ import Chamada from "./chamada"
 
 const Body = () => {
     const o_que_e = (
-        <section className="bodySection">
+        <section className="bodySection backgroundB">
             <h2>Fale com firmeza em público</h2>
             <p>Essa imersão é uma oportunidade para você superar a vergonha de se colocar no centro das atenções, nesse lugar em que todos te olham.</p>
             <p>Nessa imersão vou te ajudar a ocupar esse espaço de destaque de forma determinada e potente. Vencendo as barreiras que te impedem de ter coragem e entusiasmo para se expressar de forma autêntica e natural.</p>
             <p>Eu sei que o desafio é grande, mas eu preciso que você confie, seremos parceiros nessa jornada, eu já vive essa dor e tenho uma vasta experiência pessoal e profissional para lidar com desafios de forma responsável e afetiva.</p>
             <p>A metodologia que eu vou utilizar vai te deixar super à vontade para ativar o seu modo coragem e se arriscar a cada exercício. A proposta nesse trabalho é elevar a sua autoestima, liberando a opressão e aflorando em você uma autoaceitação.</p>
             <p>Que você possa se lançar em qualquer que seja o palco que você deseja se manifestar e da forma que você estar. Você já está pronto, basta saber o que vai falar, não precisa mais esperar.</p>
-            <p><a class="button-small-text" href="https://www.sympla.com.br/fala-voz--encarando-o-medo-de-se-expressar__1293670" target="_blank" rel="noreferrer"> <img src="https://www.sympla.com.br/images/btn-register-widget.png" alt="Botão para se inscrever no site da Sympla"></img></a></p>
+            <p><a class="button-small-text btn btn-lg" href="https://www.sympla.com.br/fala-voz--encarando-o-medo-de-se-expressar__1293670" target="_blank" rel="noreferrer">QUERO ME INSCREVER</a></p>
         </section>
     )
     
     const para_quem = (
-        <section className="bodySection">
+        <section className="bodySection backgroundA">
             <h2>Para quem é destinada essa imersão?</h2>
             <p>Qualquer pessoa que queria trabalhar esse sentimento de incapacidade, de insegurança, de desvalor que gera timidez, nervosismo e vergonha para expressar suas ideias, conhecimentos e sentimentos publicamente, e que esteja aberta para encarar o medo e desenvolver o músculo da coragem.</p>
         </section>
     )
     
     const por_que = (
+        <>
         <section className="bodySection">
             <h2>Chega de perder oportunidades!</h2>
             <p>Já pensou o que poderia estar fazendo ou vivendo se tivesse uma fala mais envolvente, firme e com paixão? Sem medo de chamar atenção! Já imaginou o que poderia acontecer, se você DECIDIR comunicar e expandir a sua voz?</p>
@@ -33,7 +34,8 @@ const Body = () => {
             <p>O que você faria se não se sentisse inseguro?  E a sua voz o que ela diria se pudesse falar? Quando encaramos os medos superamos os nossos limites e assim podemos nos dar conta da grandeza que somos.</p>
             <p>Não abafe aquilo que quer sair, assuma a sua existência. A sua palavra poderá criar ressonâncias em outros corações. Se ofereça sem moderação!</p>
             <p>É preciso reconhecer que dentro de nós existe uma força poderosa e transformadora. Mesmo que a sua mente diga para você que você não vai conseguir superar essa dificuldade, não acredite nisso.</p>
-    
+            </section>
+            <section className="bodySection">
             <h2>O impossível pode acontecer!</h2>
             <p>Se dê essa chance, e você verá que esse medo do julgamento não vai mais te paralisar, aceite o desafio e você vai descobrir o passo a passo para se lançar no “centro da roda”.</p>
             <p>Sim, você pode se comunicar livremente. Expressar para o mundo o que faz teu olho brilhar.</p>
@@ -43,14 +45,17 @@ const Body = () => {
             <p>E esse é o caminho que vamos percorrer nessa imersão. A partir dessa conexão com você, é que será possível sentir FIRMEZA ao falar em público.</p>
             <p>Cada módulo do curso trará exercícios que funcionarão como ensaios para que você chame a sua voz, convide os seus gestos para expandir o seu estilo pessoal, se posicionando naquilo que faz sentido para você.</p>
         </section>
+        </>
     )
     
     const sobre_mim = (
-        <section className="bodySection">
+        <section className="bodySection backgroundB">
+            <a href="https://www.instagram.com/marciaciprianoh/">
             <div className="d-flex flex-column justify-content-center align-items-center">
                 <StaticImage className="marciaPerfil" src="../images/marcia-perfil.JPG" alt="Foto Márcia Cipriano"></StaticImage>
                 <h2>Sobre mim</h2>
             </div>
+            </a>            
             <p>Trabalho com educação há mais de 30 anos e caminhei por muitos lugares profissionalmente. Sou licenciada em Filosofia e mestre em Educação, com especialização em Psicopedagogia e em Orientação Profissional.</p>
             <p>São mais de 20 anos atuando como psicóloga. Sou facilitadora de Biodança há quase 10 anos.</p>
             <p>Seja no papel de psicoterapeuta, palestrante, supervisora, mentora, professora ou facilitadora, me encanta este lugar de favorecer ao outro uma vivência consciente e transformadora nos processos de mudança.</p>

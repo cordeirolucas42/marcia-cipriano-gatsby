@@ -9,9 +9,7 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={"Fala Voz - Encarando O Medo De Se Expressar"} />
       <div>
-
         <main>{children}</main>
-
         <footer className="footer">© {new Date().getFullYear()}, Desenvolvido por
           {` `}
           <a href="https://github.com/cordeirolucas42">Lucas Cordeiro</a>        

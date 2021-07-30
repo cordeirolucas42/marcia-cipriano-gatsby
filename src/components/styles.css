@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
 
+/* 
+#C2B5A3
+#FFCD0C
+#1F1F3A
+*/
+
+/* DEBUGGING */
+/* section {
+    border: 1px solid black;
+} */
+/* DEBUGGING */
+
+
 * {
     font-family: 'Open Sans', sans-serif;
 }
@@ -8,9 +21,16 @@ a {
     text-decoration: none;
     color: black;
 }
+a:hover {
+    color: #1F1F3A;
+}
 
 h1,h2,h3,h4 {
     font-family: 'Bebas Neue', sans-serif;
+}
+
+h2 {
+    font-size: 3rem;
 }
 
 p {    
@@ -18,16 +38,85 @@ p {
     /* font-size: larger; */
 }
 
-.bodySection {
-    max-width: 1200px;
-    padding: 0 2em;
-    margin: 2em auto;
+.btn {
+    background-color: black;
+    color: #FFCD0C; 
+    transition: font-size 0.5s;
+}
+.btn:hover {
+    background-color: black;
+    color: #FFCD0C;
+    font-size: 1.5rem;
+}
+
+
+@media (min-width: 600px) {
+    .logoFalaVoz {
+        max-width: 25%;
+        margin-bottom: 0 !important;
+    }
+
+    .marciaPerfil {
+        width: 150px;
+        border-radius: 50%;
+        margin: 1em 0 0 0;
+    }
+    .bodySection {
+        padding: 2em 20%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .logoFalaVoz {
+        max-width: 60%;
+        margin-bottom: 0 !important;
+    }
+
+    .marciaPerfil {
+        width: 150px;
+        border-radius: 50%;
+        margin: 0 0 0.5em 0;
+    }
+    .bodySection {
+        padding: 2em 10%;
+        margin: 0 auto;
+    }
+}
+
+/* COR DE FUNDO ALTERNADA */
+.backgroundA {
+    /* background-color: #1F1F3A;
+    color: #FFCD0C; */
+    background-color: black;
+    color: #FFCD0C;
+}
+
+.backgroundB {
+    background-color: #FFCD0C;
+    /* color: #1F1F3A; */
+    color: black;
 }
 
 /* CHAMADA */
-.chamadaImg {
-    width: 45%;
+.chamada {
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0;
 }
+
+.chamadaImg {
+    width: 35%;
+}
+
+/* .chamadaImg::after {
+    display:block;
+        content:'';
+        position:absolute;
+        width:100%;
+        height:100%;
+        box-shadow:inset 0px 0px 30px 10px rgb(255, 255, 255);
+} */
 
 /* TABELA PROGRAMAÇÃO */
 .periodBlock {
@@ -45,7 +134,7 @@ p {
 
 .dateSmall {
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.1em;
     margin: 0 0 0.5em 0;
 }
 
@@ -57,7 +146,7 @@ p {
 .themeTitle {
     /* color: #e6b710; */
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.1em;
     margin: 0 0 0.5em 0;
 }
 
@@ -77,36 +166,9 @@ footer {
     text-align: center;
     line-height: 80px;
     height: 80px;
-    background-color: rgb(209, 209, 209);
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    background-color: rgb(240, 240, 240);
 }
 
-@media (min-width: 600px) {
-    .logoFalaVoz {
-        max-width: 25%;
-        margin-bottom: 0 !important;
-    }
-
-    .marciaPerfil {
-        width: 150px;
-        border-radius: 50%;
-        margin: 1em 0 0 0;
-    }
-/* 
-    .headerImg {
-        height: 200px;
-    } */
-}
-
-@media (max-width: 600px) {
-    .logoFalaVoz {
-        max-width: 60%;
-        margin-bottom: 0 !important;
-    }
-
-    .marciaPerfil {
-        width: 150px;
-        border-radius: 50%;
-        margin: 0 0 0.5em 0;
-    }
-}
 
