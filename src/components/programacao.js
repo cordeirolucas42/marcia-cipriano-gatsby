@@ -9,7 +9,7 @@ const Programacao = () => {
         sexta_noite: {
             titulo: "É impossível não comunicar",
             data: "03/09",
-            dia: "Sexta-Feira às 18h30",
+            dia: "Sexta às 18h30",
             icone: "../images/voice.png",
             topicos: [
                 "A voz é uma expressão da identidade",

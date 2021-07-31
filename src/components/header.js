@@ -1,4 +1,5 @@
 import * as React from "react"
+// import { useState, useEffect } from "react";
 import PropTypes from "prop-types"
 import { StaticImage } from "gatsby-plugin-image"
 import "./styles.css"
@@ -9,6 +10,9 @@ const Header = () => (
         margin: `0 auto`,
         maxWidth: 1200
     }}>
+      {/* {(window.innerWidth > 400) ?
+      (<StaticImage className="headerImg" src="../images/banner página curso.png"></StaticImage>) :
+      (<StaticImage className="headerImg" src="../images/banner mobile fala voz.png"></StaticImage>)} */}
       <StaticImage className="headerImg" src="../images/banner página curso.png"></StaticImage>
     </div>
   </header>
