@@ -2,6 +2,7 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Programacao from "./programacao"
 import Chamada from "./chamada"
+import Depoimentos from "./depoimentos"
 
 const Body = () => {
     const o_que_e = (
@@ -69,6 +70,7 @@ const Body = () => {
         {para_quem}
         {por_que}
         <Programacao></Programacao>
+        <Depoimentos></Depoimentos>
         {sobre_mim}
         </>
     )

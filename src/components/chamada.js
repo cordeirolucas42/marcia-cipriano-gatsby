@@ -12,13 +12,6 @@ const Chamada = () => {
                 <a href="https://www.sympla.com.br/fala-voz--encarando-o-medo-de-se-expressar__1293670" className="btn chamadaBtn">Inscreva-se no Fala Voz</a>                
                 <a href="https://chat.whatsapp.com/FUHCL3l5VV7LbXLOHTNWot" className="btn chamadaBtn"><StaticImage className="iconeZap" src="../images/whatsapp.png" alt="Márcia apontando"></StaticImage><span>Junte-se ao grupo</span></a>
             </div>
-
-            {/* SEGUNDA OPÇÃO */}
-            {/* <div className="chamadaBox">
-                <p>Serão 12 horas de teoria e prática ao vivo no Zoom para que você desperte a coragem para encarar medo de se expressar publicamente e soltar a sua voz.</p>
-                <a href="https://www.sympla.com.br/fala-voz--encarando-o-medo-de-se-expressar__1293670" className="btn chamadaBtn">Inscreva-se no Fala Voz</a>
-                <a href="https://chat.whatsapp.com/FUHCL3l5VV7LbXLOHTNWot" className="btn chamadaBtn">Junte-se ao grupo</a>
-            </div> */}
         </section>
     )
 }

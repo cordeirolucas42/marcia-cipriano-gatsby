@@ -37,10 +37,15 @@ p {
     font-size: 1.5rem;
 }
 
+
 /* DESKTOP VERSION */
 @media (min-width: 600px) {
     h2 {
         font-size: 3rem;
+    }
+    .depoimentos {
+        width: 25vw;
+        height: 14.06vw;
     }
     .logoFalaVoz {
         max-width: 25%;
@@ -122,6 +127,10 @@ p {
 @media (max-width: 600px) {
     h2 {
         font-size: 2.5rem;
+    }
+    .depoimentos {
+        width: 80vw;
+        height: 45vw;
     }
     /* p {
         font-size: 0.9rem;
