@@ -18,17 +18,12 @@ a:hover {
     color: #1F1F3A;
 }
 
-h1,h2,h3,h4 {
+h1,h2,h3,h4,h5,h6 {
     font-family: 'Bebas Neue', sans-serif;
-}
-
-h2 {
-    font-size: 3rem;
 }
 
 p {    
     text-align: justify;
-    /* font-size: larger; */
 }
 
 .btn {
@@ -42,8 +37,11 @@ p {
     font-size: 1.5rem;
 }
 
-
+/* DESKTOP VERSION */
 @media (min-width: 600px) {
+    h2 {
+        font-size: 3rem;
+    }
     .logoFalaVoz {
         max-width: 25%;
         margin-bottom: 0 !important;
@@ -60,17 +58,74 @@ p {
     }
     /* CHAMADA */
     .chamada {
-        margin: 0 auto;
         padding-top: 0;
         padding-bottom: 0;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items:flex-end;
     }
 
     .chamadaImg {
-        width: 35%;
+        width: 30%;
+        margin: 0 10%;
+    }
+    .chamadaBox {
+        /* min-height: 30vw; */
+        /* min-height: 20rem; */
+        width: 70%;
+        margin: 2em auto;
+        padding: 1em;
+        align-self: center;
+        flex-shrink: 2;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #1F1F3A;
+        border-radius: 50px 8px;
+        /*  */
+        /* border: 1px solid black; */
+    }
+    .chamadaBox h6 {
+        text-align: center;
+        font-size: 2rem;
+        color: #FFCD0C;
+        margin: 0.5em 0;
+    }
+    .chamadaBtn {
+        background-color: #FFCD0C;
+        color: #1F1F3A;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.4rem;
+        margin: 0.5em 0;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .chamadaBtn:hover {        
+        background-color: #FFCD0C;
+        color: #1F1F3A;
+    }
+    .chamadaBtn span {
+        font-family: 'Bebas Neue', sans-serif;
+        padding: 0;
+    }
+    .iconeZap {
+        height: 1rem;
+        width: 1rem;
+        margin: 2px 4px 6px 2px;
     }
 }
 
+/* MOBILE VERSION */
 @media (max-width: 600px) {
+    h2 {
+        font-size: 2.5rem;
+    }
+    /* p {
+        font-size: 0.9rem;
+    } */
     .logoFalaVoz {
         max-width: 60%;
         margin-bottom: 0 !important;
@@ -87,13 +142,59 @@ p {
     }
     /* CHAMADA */
     .chamada {
-        margin: 0 auto;
         padding-top: 0;
         padding-bottom: 0;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items:flex-end;
     }
 
     .chamadaImg {
-        width: 50%;
+        width: 45%;
+        margin: 0 auto;
+        display: none;
+    }
+    .chamadaBox {
+        /* min-height: 30vw; */
+        /* min-height: 20rem; */
+        width: 80%;
+        margin: 2em auto;
+        padding: 1em;
+        /* align-self: center;
+        flex-shrink: 2; */
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #1F1F3A;
+        border-radius: 50px 8px;
+        /*  */
+        /* border: 1px solid black; */
+    }
+    .chamadaBox h6 {
+        text-align: center;
+        font-size: 1.2rem;
+        color: #FFCD0C;
+        margin: 0.5em 0;
+    }
+    .chamadaBtn {
+        background-color: #FFCD0C;
+        color: #1F1F3A;
+        font-size: small;
+        margin: 0.5em 0;
+    }
+    .chamadaBtn:hover {        
+        background-color: #FFCD0C;
+        color: #1F1F3A;
+    }
+    .chamadaBtn span {
+        /* font-family: 'Bebas Neue', sans-serif; */
+        padding: 0;
+    }
+    .iconeZap {
+        height: 1rem;
+        width: 1rem;
+        margin: 2px 4px 2px 2px;
     }
 }
 
