@@ -51,7 +51,7 @@ const Body = () => {
         <section className="bodySection backgroundB">
             <a href="https://www.instagram.com/marciaciprianoh/">
             <div className="d-flex flex-column justify-content-center align-items-center">
-                <StaticImage className="marciaPerfil" src="../images/marcia-perfil.jpg" alt="Foto Márcia Cipriano"></StaticImage>
+                <StaticImage className="marciaPerfil" src="../images/marcia-perfil.JPG" alt="Foto Márcia Cipriano"></StaticImage>
                 <h2>Sobre mim</h2>
             </div>
             </a>            
