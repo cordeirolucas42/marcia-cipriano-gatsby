@@ -25,28 +25,30 @@ const Body = () => {
     )
     
     const por_que = (
-        <>
-        <section className="bodySection">
-            <h2>Chega de perder oportunidades!</h2>
-            <p>Já pensou o que poderia estar fazendo ou vivendo se tivesse uma fala mais envolvente, firme e com paixão? Sem medo de chamar atenção! Já imaginou o que poderia acontecer, se você DECIDIR comunicar e expandir a sua voz?</p>
-            <p>São tantas as situações que deixamos de viver, quer seja na vida pessoal ou profissional por não termos coragem de nos posicionarmos publicamente.</p>
-            <p>Não importa a situação, ou profissão, ramo, negócio ou atividade. Essa imersão é para você que cansou de perder oportunidade na vida ao sentir MEDO de se manifestar publicamente.</p>
-            <p>O medo que sentimos cria um isolamento assustador, não é mesmo?</p>
-            <p>O que você faria se não se sentisse inseguro?  E a sua voz o que ela diria se pudesse falar? Quando encaramos os medos superamos os nossos limites e assim podemos nos dar conta da grandeza que somos.</p>
-            <p>Não abafe aquilo que quer sair, assuma a sua existência. A sua palavra poderá criar ressonâncias em outros corações. Se ofereça sem moderação!</p>
-            <p>É preciso reconhecer que dentro de nós existe uma força poderosa e transformadora. Mesmo que a sua mente diga para você que você não vai conseguir superar essa dificuldade, não acredite nisso.</p>
-            </section>
-            <section className="bodySection">
-            <h2>O impossível pode acontecer!</h2>
-            <p>Se dê essa chance, e você verá que esse medo do julgamento não vai mais te paralisar, aceite o desafio e você vai descobrir o passo a passo para se lançar no “centro da roda”.</p>
-            <p>Sim, você pode se comunicar livremente. Expressar para o mundo o que faz teu olho brilhar.</p>
-            <p>A fala é uma ferramenta poderosa para revelar o seu conhecimento, as suas ideias, e sentimentos. Dizer o seu SIM e o seu NÃO, com assertividade, persuasão, se mostrando ao mundo e gerando conexão.</p>
-            <p>Meu convite é para que você solte toda essa potência de vida que mora em você.</p>
-            <p>É isso que eu estou chamando de voz, não é só um conhecimento que você pode transmitir, mas, a forma que sai da sua boca, é diferente, é singular, ela carrega um sentido único.</p>
-            <p>E esse é o caminho que vamos percorrer nessa imersão. A partir dessa conexão com você, é que será possível sentir FIRMEZA ao falar em público.</p>
-            <p>Cada módulo do curso trará exercícios que funcionarão como ensaios para que você chame a sua voz, convide os seus gestos para expandir o seu estilo pessoal, se posicionando naquilo que faz sentido para você.</p>
-        </section>
-        </>
+        <div className="bodySection justify-content-center">
+            <div className="porqueSection">
+                <section className="porqueBlock">
+                    <h2>Chega de perder oportunidades!</h2>
+                    <p>Já pensou o que poderia estar fazendo ou vivendo se tivesse uma fala mais envolvente, firme e com paixão? Sem medo de chamar atenção! Já imaginou o que poderia acontecer, se você DECIDIR comunicar e expandir a sua voz?</p>
+                    <p>São tantas as situações que deixamos de viver, quer seja na vida pessoal ou profissional por não termos coragem de nos posicionarmos publicamente.</p>
+                    <p>Não importa a situação, ou profissão, ramo, negócio ou atividade. Essa imersão é para você que cansou de perder oportunidade na vida ao sentir MEDO de se manifestar publicamente.</p>
+                    <p>O medo que sentimos cria um isolamento assustador, não é mesmo?</p>
+                    <p>O que você faria se não se sentisse inseguro?  E a sua voz o que ela diria se pudesse falar? Quando encaramos os medos superamos os nossos limites e assim podemos nos dar conta da grandeza que somos.</p>
+                    <p>Não abafe aquilo que quer sair, assuma a sua existência. A sua palavra poderá criar ressonâncias em outros corações. Se ofereça sem moderação!</p>
+                    <p>É preciso reconhecer que dentro de nós existe uma força poderosa e transformadora. Mesmo que a sua mente diga para você que você não vai conseguir superar essa dificuldade, não acredite nisso.</p>
+                </section>
+                <section className="porqueBlock">
+                    <h2>O impossível pode acontecer!</h2>
+                    <p>Se dê essa chance, e você verá que esse medo do julgamento não vai mais te paralisar, aceite o desafio e você vai descobrir o passo a passo para se lançar no “centro da roda”.</p>
+                    <p>Sim, você pode se comunicar livremente. Expressar para o mundo o que faz teu olho brilhar.</p>
+                    <p>A fala é uma ferramenta poderosa para revelar o seu conhecimento, as suas ideias, e sentimentos. Dizer o seu SIM e o seu NÃO, com assertividade, persuasão, se mostrando ao mundo e gerando conexão.</p>
+                    <p>Meu convite é para que você solte toda essa potência de vida que mora em você.</p>
+                    <p>É isso que eu estou chamando de voz, não é só um conhecimento que você pode transmitir, mas, a forma que sai da sua boca, é diferente, é singular, ela carrega um sentido único.</p>
+                    <p>E esse é o caminho que vamos percorrer nessa imersão. A partir dessa conexão com você, é que será possível sentir FIRMEZA ao falar em público.</p>
+                    <p>Cada módulo do curso trará exercícios que funcionarão como ensaios para que você chame a sua voz, convide os seus gestos para expandir o seu estilo pessoal, se posicionando naquilo que faz sentido para você.</p>
+                </section>
+            </div>            
+        </div>
     )
     
     const sobre_mim = (
