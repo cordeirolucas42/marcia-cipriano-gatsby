@@ -25,7 +25,13 @@ h1,h2,h3,h4,h5,h6 {
 p {    
     text-align: justify;
 }
-
+/* DEPOIMENTOS */
+.depoimentoCol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
 .btn {
     background-color: black;
     color: #FFCD0C; 
