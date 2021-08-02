@@ -27,6 +27,9 @@ const Body = () => {
     const por_que = (
         <div className="bodySection justify-content-center">
             <div className="porqueSection">
+                <div className="d-flex flex-column justify-content-center align-items-center">
+                    <StaticImage width={1272} height={1272} className="marciaOportunidade" src="../images/oportunidades.JPG" alt="Foto Márcia Cipriano"></StaticImage>
+                </div>
                 <section className="porqueBlock">
                     <h2>Chega de perder oportunidades!</h2>
                     <p>Já pensou o que poderia estar fazendo ou vivendo se tivesse uma fala mais envolvente, firme e com paixão? Sem medo de chamar atenção! Já imaginou o que poderia acontecer, se você DECIDIR comunicar e expandir a sua voz?</p>

@@ -38,8 +38,8 @@ const Header = () => {
         maxWidth: 1200
       }}>
         {(windowSize.width > 600) ?
-        (<StaticImage className="headerImg" src="../images/banner página curso.png"></StaticImage>) :
-        (<StaticImage className="headerImg" src="../images/banner mobile fala voz.png"></StaticImage>)}
+        (<StaticImage width={2400} height={595} className="headerImg" src="../images/banner página curso.png"></StaticImage>) :
+        (<StaticImage width={800} height={400} className="headerImg" src="../images/banner mobile fala voz.png"></StaticImage>)}
         {/* <StaticImage className="headerImg" src="../images/banner página curso.png"></StaticImage> */}
       </div>
     </header>
