@@ -40,7 +40,7 @@ const Programacao = () => {
                 "Os três pilares da expressão verbal",
                 "Como se preparar para uma apresentação",
                 "SIM e NÃO - Conversação assertiva nas relações interpessoais",
-                "Práticas para aperfeiçoar um fala que gere conexão e intimidade"
+                "Práticas para aperfeiçoar um fala que gera conexão e intimidade"
             ]
         },
         domingo_manha: {

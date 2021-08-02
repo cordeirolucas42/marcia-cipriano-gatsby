@@ -38,7 +38,7 @@ function Seo({ description, lang, meta, title }) {
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: `12 horas de teoria e prática ao vivo no Zoom para que você desperte a coragem para encarar o medo de se expressar publicamente e soltar a sua voz.`,
         },
         {
           property: `og:title`,
@@ -46,7 +46,7 @@ function Seo({ description, lang, meta, title }) {
         },
         {
           property: `og:description`,
-          content: metaDescription,
+          content: `12 horas de teoria e prática ao vivo no Zoom para que você desperte a coragem para encarar o medo de se expressar publicamente e soltar a sua voz.`,
         },
         {
           property: `og:type`,
@@ -66,7 +66,7 @@ function Seo({ description, lang, meta, title }) {
         },
         {
           name: `twitter:description`,
-          content: metaDescription,
+          content: `12 horas de teoria e prática ao vivo no Zoom para que você desperte a coragem para encarar o medo de se expressar publicamente e soltar a sua voz.`,
         },
       ].concat(meta)}
     />
@@ -76,7 +76,7 @@ function Seo({ description, lang, meta, title }) {
 Seo.defaultProps = {
   lang: `en`,
   meta: [],
-  description: ``,
+  description: `12 horas de teoria e prática ao vivo no Zoom para que você desperte a coragem para encarar o medo de se expressar publicamente e soltar a sua voz.`,
 }
 
 Seo.propTypes = {

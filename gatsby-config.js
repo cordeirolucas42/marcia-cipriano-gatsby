@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Fala Voz`,
-    description: `Encarando o medo de se expressar.`,
+    description: `12 horas de teoria e prática ao vivo no Zoom para que você desperte a coragem para encarar o medo de se expressar publicamente e soltar a sua voz.`,
     author: `@cordeirolucas42`,
     siteUrl: `http://falavoz.online`,
   },
