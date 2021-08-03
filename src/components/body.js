@@ -49,10 +49,10 @@ const Body = () => {
     
     const sobre_mim = (
         <section className="bodySection backgroundB">
-            <a href="https://www.instagram.com/marciaciprianoh/">
+            <a href="https://linktr.ee/marcia.cipriano">
             <div className="d-flex flex-column justify-content-center align-items-center">
                 <StaticImage className="marciaPerfil" src="../images/marcia-perfil.JPG" alt="Foto Márcia Cipriano"></StaticImage>
-                <h2>Sobre mim</h2>
+                <h2>Márcia Cipriano</h2>
             </div>
             </a>            
             <p>Trabalho com educação há mais de 30 anos e caminhei por muitos lugares profissionalmente. Sou licenciada em Filosofia e mestre em Educação, com especialização em Psicopedagogia e em Orientação Profissional.</p>
@@ -61,6 +61,15 @@ const Body = () => {
             <p>Hoje, sou especialista em fortalecer o músculo da CORAGEM. Afinal, foi necessário que eu alimentasse muito este sentimento para percorrer a minha caminhada. Sempre senti o medo pulsando na estrutura mente-corpo, mas o compromisso com a vida gritou mais alto. Na verdade, era apenas a própria vida ganhando o seu espaço.</p>
         </section>
     )
+    
+    const grupo_whatsapp = (
+        <section className="bodySection backgroundA">
+            <h2>Ainda na dúvida?</h2>
+            <p>Criamos um grupo exclusivo para quem tem interesse em despertar o músculo da Coragem e começar a falar com firmeza em público. Lá vamos explicar tudo que você precisa, tirar todas as suas dúvidas. E é claro, vai ter uma surpresa e um bônus exclusivo para os integrantes do grupo.</p>
+            <a href="https://chat.whatsapp.com/FUHCL3l5VV7LbXLOHTNWot" className="btn grupoBtn"><StaticImage className="iconeGrupo" src="../images/whatsapp.png" alt="Márcia apontando"></StaticImage><span>Junte-se ao grupo</span></a>
+        </section>
+    )
+
     return (
         <>
         <Chamada></Chamada>
@@ -69,6 +78,7 @@ const Body = () => {
         {por_que}
         <Programacao></Programacao>
         <Depoimentos></Depoimentos>
+        {grupo_whatsapp}
         {sobre_mim}
         </>
     )
