@@ -64,6 +64,16 @@ const Body = () => {
     
     const grupo_whatsapp = (
         <section className="bodySection backgroundA">
+            <div className="precoDiv">
+                <h2>Investimento</h2>
+                <div className="precoBox">
+                    <p className="preco1">Por apenas 12x de</p>
+                    <p className="preco2">R$ 40,96</p>
+                    <p className="preco3">Ou R$ 396,00 à vista</p>
+                </div>
+                <div style={{clear:"both"}}></div>
+                <a href="https://www.sympla.com.br/fala-voz--encarando-o-medo-de-se-expressar__1293670" className="btn grupoBtn"><span>Inscreva-se pelo Sympla</span></a>
+            </div>            
             <h2>Ainda na dúvida?</h2>
             <p>Criamos um grupo exclusivo para quem tem interesse em despertar o músculo da Coragem e começar a falar com firmeza em público. Lá vamos explicar tudo que você precisa, tirar todas as suas dúvidas. E é claro, vai ter uma surpresa e um bônus exclusivo para os integrantes do grupo.</p>
             <a href="https://chat.whatsapp.com/FUHCL3l5VV7LbXLOHTNWot" className="btn grupoBtn"><StaticImage className="iconeGrupo" src="../images/whatsapp.png" alt="Márcia apontando"></StaticImage><span>Junte-se ao grupo</span></a>
