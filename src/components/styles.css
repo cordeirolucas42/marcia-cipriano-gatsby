@@ -116,7 +116,7 @@ p {
         box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.432);
     }
     .bodySection {
-        padding: 2em 20% 0 20%;
+        padding: 2em 15% 0 15%;
         margin: 0 auto;
     }
     /* CHAMADA */
@@ -127,15 +127,14 @@ p {
         flex-flow: row nowrap;
         align-items:flex-end;
     }
-
     .chamadaImg {
         width: 30%;
         margin: 0 10%;
     }
     .chamadaBox {
-        width: 70%;
-        margin: 1rem auto;
-        padding: 1.5rem;
+        width: 50%;
+        margin: 2rem auto;
+        padding: 1.2rem;
         align-self: center;
         flex-shrink: 2;
         display: flex;
@@ -147,7 +146,7 @@ p {
     }
     .chamadaBox h6 {
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.7rem;
         color: #FFCD0C;
         margin: 0.5em 0;
     }
@@ -156,7 +155,7 @@ p {
         color: #1F1F3A;
         font-family: 'Bebas Neue', sans-serif;
         font-size: 1.4rem;
-        margin: 0.5em 0;
+        margin: 0.3em 0;
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
@@ -209,6 +208,70 @@ p {
     box-shadow: 5px 5px 0px 0px black;
     margin-bottom: 1rem;
 } */
+}
+
+/* BIG SCREEN VERSION */
+@media (min-width: 1500px) {
+    .bodySection {
+        padding: 2em 20% 0 20%;
+        margin: 0 auto;
+    }
+    /* CHAMADA */
+    .chamada {
+        padding-top: 0;
+        padding-bottom: 0;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items:flex-end;
+    }
+    .chamadaImg {
+        width: 30%;
+        margin: 0 10%;
+    }
+    .chamadaBox {
+        width: 50%;
+        margin: 2rem auto;
+        padding: 1.2rem;
+        align-self: center;
+        flex-shrink: 2;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #1F1F3A;
+        border-radius: 50px 3px;
+    }
+    .chamadaBox h6 {
+        text-align: center;
+        font-size: 2rem;
+        color: #FFCD0C;
+        margin: 0.5em 0;
+    }
+    .chamadaBtn {
+        background-color: #FFCD0C;
+        color: #1F1F3A;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.6rem;
+        margin: 0.3em 0;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .chamadaBtn:hover {        
+        background-color: #FFCD0C;
+        color: #1F1F3A;
+        font-size: 1.7rem;
+    }
+    .chamadaBtn span {
+        font-family: 'Bebas Neue', sans-serif;
+        padding: 0;
+    }
+    .iconeZap {
+        height: 1rem;
+        width: 1rem;
+        margin: 2px 4px 6px 2px;
+    }
 }
 
 /* MOBILE VERSION */
