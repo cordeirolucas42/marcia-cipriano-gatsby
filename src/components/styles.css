@@ -251,8 +251,7 @@ p {
     }
     /* CHAMADA */
     .chamada {
-        padding-top: 0;
-        padding-bottom: 0;
+        padding:0;
         display: flex;
         flex-flow: row nowrap;
         align-items:flex-end;
@@ -261,43 +260,38 @@ p {
     .chamadaImg {
         width: 45%;
         margin: 0 auto;
-        display: none;
+        /* display: none; */
     }
     .chamadaBox {
-        /* min-height: 30vw; */
-        /* min-height: 20rem; */
-        width: 80%;
-        margin: 2em auto;
+        width: 50%;
+        margin: 0.5rem auto;
         padding: 1em;
-        /* align-self: center;
-        flex-shrink: 2; */
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
         background-color: #1F1F3A;
         border-radius: 50px 8px;
-        /*  */
-        /* border: 1px solid black; */
     }
     .chamadaBox h6 {
+        font-family: 'Open Sans', sans-serif;
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 0.85rem;
         color: #FFCD0C;
         margin: 0.5em 0;
     }
     .chamadaBtn {
         background-color: #FFCD0C;
         color: #1F1F3A;
-        font-size: small;
+        font-size: 0.7rem;
         margin: 0.5em 0;
     }
     .chamadaBtn:hover {        
         background-color: #FFCD0C;
         color: #1F1F3A;
+        font-size: 0.8rem;
     }
     .chamadaBtn span {
-        /* font-family: 'Bebas Neue', sans-serif; */
         padding: 0;
     }
     .iconeZap {
