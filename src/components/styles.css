@@ -124,6 +124,7 @@ p {
     /* APRESENTAÇÃO EM VÍDEO */
     .apresentacaoBlock {
         display: flex;
+        flex-flow: column nowrap;
         justify-content: center;
         align-items: center;        
         padding: 1rem 0;
@@ -134,6 +135,12 @@ p {
         height: 27vw;
         border: 1px solid black;
         box-shadow: 5px 5px 0px 0px black;
+    }
+    .buttonGroup {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
     }
 
     /* CHAMADA */
@@ -169,10 +176,10 @@ p {
     }
     .chamadaBtn {
         background-color: #FFCD0C;
-        color: #1F1F3A;
+        color: black;
         font-family: 'Bebas Neue', sans-serif;
         font-size: 1.4rem;
-        margin: 0.3em 0;
+        margin: 1rem 1rem 0 1rem;
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
