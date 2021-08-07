@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap");
 
 /* 
 #C2B5A3
@@ -7,226 +7,230 @@
 */
 
 * {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 a:hover {
-    color: #1F1F3A;
+  color: #1f1f3a;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: 'Bebas Neue', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bebas Neue", sans-serif;
 }
 
-p {    
-    text-align: justify;
+p {
+  text-align: justify;
 }
 /* DEPOIMENTOS */
 .depoimentoCol {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
 }
 .btn {
-    background-color: black;
-    color: #FFCD0C; 
-    transition: font-size 0.5s;
+  background-color: black;
+  color: #ffcd0c;
+  transition: font-size 0.5s;
 }
 .btn:hover {
-    background-color: black;
-    color: #FFCD0C;
-    font-size: 1.5rem;
+  background-color: black;
+  color: #ffcd0c;
+  font-size: 1.5rem;
 }
 
 /* PREÇO */
 .precoDiv {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 .precoBox {
-    background-color: #FFCD0C;
-    color: black;
-    border-radius: 50px 8px;
-    padding: 1.5em 3em;
-    /* width: 35%; */
-    /* MOBILE WIDTH */
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    float: left;
+  background-color: #ffcd0c;
+  color: black;
+  border-radius: 50px 8px;
+  padding: 1.5em 3em;
+  /* width: 35%; */
+  /* MOBILE WIDTH */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  float: left;
 }
 
 /* GRUPO WHATSAPP */
 .grupoBtn {
-    background-color: #FFCD0C;
-    color: black;
-    margin: 0.5em 0;
-    font-size: 1.4rem;
+  background-color: #ffcd0c;
+  color: black;
+  margin: 0.5em 0;
+  font-size: 1.4rem;
 }
-.grupoBtn:hover {        
-    background-color: #FFCD0C;
-    color: black;
-    font-size: 1.5rem;
+.grupoBtn:hover {
+  background-color: #ffcd0c;
+  color: black;
+  font-size: 1.5rem;
 }
 .grupoBtn span {
-    font-family: 'Bebas Neue', sans-serif;
-    padding: 0;
+  font-family: "Bebas Neue", sans-serif;
+  padding: 0;
 }
 .iconeGrupo {
-    height: 1.5rem;
-    width: 1.5rem;
-    margin: 2px 6px 4px 2px;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 2px 6px 4px 2px;
 }
 
 /* DESKTOP VERSION */
 @media (min-width: 600px) {
-    h2 {
-        font-size: 3rem;
-    }
+  h2 {
+    font-size: 3rem;
+  }
 
-    .depoimentos {
-        width: 25vw;
-        height: 14.06vw;
-        border: 1px solid black;
-        box-shadow: 5px 5px 0px 0px black;
-        
-    }
-    .logoFalaVoz {
-        max-width: 25%;
-        margin-bottom: 0 !important;
-    }
+  .depoimentos {
+    width: 25vw;
+    height: 14.06vw;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0px 0px black;
+  }
+  .logoFalaVoz {
+    max-width: 25%;
+    margin-bottom: 0 !important;
+  }
 
-    .marciaPerfil {
-        width: 150px;
-        border-radius: 50%;
-        margin: 1em 0 0 0;
-    }
-    .marciaOportunidade {
-        width: 300px;
-        border-radius: 50%;
-        margin: 0 0 1em 0;
-        box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.432);
-    }
-    .bodySection {
-        padding: 2em 15% 0 15%;
-        margin: 0 auto;
-    }
+  .marciaPerfil {
+    width: 150px;
+    border-radius: 50%;
+    margin: 1em 0 0 0;
+  }
+  .marciaOportunidade {
+    width: 300px;
+    border-radius: 50%;
+    margin: 0 0 1em 0;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.432);
+  }
+  .bodySection {
+    padding: 2em 15% 0 15%;
+    margin: 0 auto;
+  }
 
-    /* APRESENTAÇÃO EM VÍDEO */
-    .apresentacaoBlock {
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-items: center;        
-        padding: 1rem 0;
-        margin: 0 auto;
-    }
-    .apresentacao {
-        width: 48vw;
-        height: 27vw;
-        border: 1px solid black;
-        box-shadow: 5px 5px 0px 0px black;
-    }
-    .buttonGroup {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: center;
-        align-items: center;
-    }
+  /* APRESENTAÇÃO EM VÍDEO */
+  .apresentacaoBlock {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    margin: 0 auto;
+  }
+  .apresentacao {
+    width: 48vw;
+    height: 27vw;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0px 0px black;
+  }
+  .buttonGroup {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+  }
 
-    /* CHAMADA */
-    .chamada {
-        padding-top: 0;
-        padding-bottom: 0;
-        display: flex;
-        flex-flow: row nowrap;
-        align-items:flex-end;
-    }
-    .chamadaImg {
-        width: 30%;
-        margin: 0 10%;
-    }
-    .chamadaBox {
-        width: 50%;
-        margin: 2rem auto;
-        padding: 1.2rem;
-        align-self: center;
-        flex-shrink: 2;
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-items: center;
-        background-color: #1F1F3A;
-        border-radius: 50px 3px;
-    }
-    .chamadaBox h6 {
-        text-align: center;
-        font-size: 1.7rem;
-        color: #FFCD0C;
-        margin: 0.5em 0;
-    }
-    .chamadaBtn {
-        background-color: #FFCD0C;
-        color: black;
-        font-family: 'Bebas Neue', sans-serif;
-        font-size: 1.4rem;
-        margin: 1rem 1rem 0 1rem;
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: center;
-        align-items: center;
-    }
-    .chamadaBtn:hover {        
-        background-color: #FFCD0C;
-        color: #1F1F3A;
-    }
-    .chamadaBtn span {
-        font-family: 'Bebas Neue', sans-serif;
-        padding: 0;
-    }
-    .iconeZap {
-        height: 1rem;
-        width: 1rem;
-        margin: 2px 4px 6px 2px;
-    }
-    /* PREÇO */
-    .preco1 {
-        font-size: 1.3rem;
-        margin: 0;
-        padding: 0;
-        align-self: flex-start;
-    }
-    .preco2 {
-        font-family: 'Bebas Neue', sans-serif;
-        font-size: 6rem;
-        font-weight: bold;
-        margin: 0;
-        padding: 0;
-        line-height: 100%;
-    }
-    .preco3 {
-        font-size: 1.5rem;
-        font-weight: bold;
-        margin: 0;
-        padding: 0;    
-    }
+  /* CHAMADA */
+  .chamada {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+  }
+  .chamadaImg {
+    width: 30%;
+    margin: 0 10%;
+  }
+  .chamadaBox {
+    width: 50%;
+    margin: 2rem auto;
+    padding: 1.2rem;
+    align-self: center;
+    flex-shrink: 2;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f3a;
+    border-radius: 50px 3px;
+  }
+  .chamadaBox h6 {
+    text-align: center;
+    font-size: 1.7rem;
+    color: #ffcd0c;
+    margin: 0.5em 0;
+  }
+  .chamadaBtn {
+    background-color: #ffcd0c;
+    color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.4rem;
+    margin: 1rem 1rem 0 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .chamadaBtn:hover {
+    background-color: #ffcd0c;
+    color: #1f1f3a;
+  }
+  .chamadaBtn span {
+    font-family: "Bebas Neue", sans-serif;
+    padding: 0;
+  }
+  .iconeZap {
+    height: 1rem;
+    width: 1rem;
+    margin: 2px 4px 6px 2px;
+  }
+  /* PREÇO */
+  .preco1 {
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+    align-self: flex-start;
+  }
+  .preco2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 6rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
+  }
+  .preco3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
 
-    /* SEÇÃO POR QUE */
-    /* .porqueSection {
+  /* SEÇÃO POR QUE */
+  /* .porqueSection {
         border: 1px solid black;
         box-shadow: 5px 5px 0px 0px black;
         padding: 1.5em;
     } */
-/* .porqueBlock {
+  /* .porqueBlock {
     border: 1px solid black;
     padding: 1em;
     box-shadow: 5px 5px 0px 0px black;
@@ -236,200 +240,195 @@ p {
 
 /* MOBILE VERSION */
 @media (max-width: 600px) {
-    h2 {
-        font-size: 2.5rem;
-    }
-    .depoimentos {
-        width: 80vw;
-        height: 45vw;
-        border: 1px solid black;
-        box-shadow: 5px 5px 0px 0px black;
-    }
-    /* p {
+  h2 {
+    font-size: 2.5rem;
+  }
+  .depoimentos {
+    width: 80vw;
+    height: 45vw;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0px 0px black;
+  }
+  /* p {
         font-size: 0.9rem;
     } */
-    .logoFalaVoz {
-        max-width: 60%;
-        margin-bottom: 0 !important;
-    }
+  .logoFalaVoz {
+    max-width: 60%;
+    margin-bottom: 0 !important;
+  }
 
-    .marciaPerfil {
-        width: 150px;
-        border-radius: 50%;
-        margin: 0 0 0.5em 0;
-    }
-    .marciaOportunidade {
-        width: 150px;
-        border-radius: 50%;
-        margin: 0 0 1em 0;
-        box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.432);
-    }
-    .bodySection {
-        padding: 2em 10% 0 10%;
-        margin: 0 auto;
-    }
-    /* APRESENTAÇÃO EM VÍDEO */
-    .apresentacaoBlock {
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-items: center;        
-        padding: 1rem 0;
-        margin: 0 auto;
-    }
-    .apresentacao {
-        width: 80vw;
-        height: 45vw;
-        border: 1px solid black;
-        box-shadow: 5px 5px 0px 0px black;
-    }
-    .buttonGroup {
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-items: center;
-    }
-    /* CHAMADA */
-    .chamada {
-        padding:0;
-        display: flex;
-        flex-flow: row nowrap;
-        align-items:flex-end;
-    }
+  .marciaPerfil {
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 0 0.5em 0;
+  }
+  .marciaOportunidade {
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 0 1em 0;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.432);
+  }
+  .bodySection {
+    padding: 2em 10% 0 10%;
+    margin: 0 auto;
+  }
+  /* APRESENTAÇÃO EM VÍDEO */
+  .apresentacaoBlock {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 1rem 0;
+    margin: 0 auto;
+  }
+  .apresentacao {
+    width: 100vw;
+    height: 56.25vw;
+  }
+  .buttonGroup {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  /* CHAMADA */
+  .chamada {
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+  }
 
-    .chamadaImg {
-        width: 45%;
-        margin: 0 auto;
-        /* display: none; */
-    }
-    .chamadaBox {
-        width: 50%;
-        margin: 0.5rem auto;
-        padding: 1em;
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-items: center;
-        background-color: #1F1F3A;
-        border-radius: 30px 3px;
-    }
-    .chamadaBox h6 {
-        font-family: 'Open Sans', sans-serif;
-        text-align: center;
-        font-size: 0.85rem;
-        color: #FFCD0C;
-        margin: 0.5em 0;
-    }
-    .chamadaBtn {
-        background-color: #FFCD0C;
-        color: #1F1F3A;
-        font-size: 0.8rem;
-        margin-top: 1rem;
-        width: 50vw;
-    }
-    .chamadaBtn:hover {        
-        background-color: #FFCD0C;
-        color: #1F1F3A;
-        font-size: 0.8rem;
-    }
-    .chamadaBtn span {
-        padding: 0;
-    }
-    .iconeZap {
-        height: 1rem;
-        width: 1rem;
-        margin: 2px 4px 2px 2px;
-    }
-    /* PREÇO */
-    .preco1 {
-        font-size: 1rem;
-        margin: 0;
-        padding: 0;
-        align-self: flex-start;
-    }
-    .preco2 {
-        font-family: 'Bebas Neue', sans-serif;
-        font-size: 4rem;
-        font-weight: bold;
-        margin: 0;
-        padding: 0;
-        line-height: 110%;
-    }
-    .preco3 {
-        font-size: 1rem;
-        font-weight: bold;
-        margin: 0;
-        padding: 0;    
-    }
+  .chamadaImg {
+    width: 45%;
+    margin: 0 auto;
+    /* display: none; */
+  }
+  .chamadaBox {
+    width: 50%;
+    margin: 0.5rem auto;
+    padding: 1em;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f3a;
+    border-radius: 30px 3px;
+  }
+  .chamadaBox h6 {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #ffcd0c;
+    margin: 0.5em 0;
+  }
+  .chamadaBtn {
+    background-color: #ffcd0c;
+    color: #1f1f3a;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    width: 50vw;
+  }
+  .chamadaBtn:hover {
+    background-color: #ffcd0c;
+    color: #1f1f3a;
+    font-size: 0.8rem;
+  }
+  .chamadaBtn span {
+    padding: 0;
+  }
+  .iconeZap {
+    height: 1rem;
+    width: 1rem;
+    margin: 2px 4px 2px 2px;
+  }
+  /* PREÇO */
+  .preco1 {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    align-self: flex-start;
+  }
+  .preco2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    line-height: 110%;
+  }
+  .preco3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 /* COR DE FUNDO ALTERNADA */
 .backgroundA {
-    /* background-color: #1F1F3A;
+  /* background-color: #1F1F3A;
     color: #FFCD0C; */
-    background-color: black;
-    color: #FFCD0C;
-    padding-bottom: 2em;
+  background-color: black;
+  color: #ffcd0c;
+  padding-bottom: 2em;
 }
 
 .backgroundB {
-    background-color: #FFCD0C;
-    /* color: #1F1F3A; */
-    color: black;    
-    padding-bottom: 2em;
+  background-color: #ffcd0c;
+  /* color: #1F1F3A; */
+  color: black;
+  padding-bottom: 2em;
 }
 
 /* TABELA PROGRAMAÇÃO */
 .periodBlock {
-    margin-top: 2em;
-    padding-bottom: 1em;
-    box-shadow: rgba(123, 123, 131, 0.3) 0px 2px 0px 0px;
+  margin-top: 2em;
+  padding-bottom: 1em;
+  box-shadow: rgba(123, 123, 131, 0.3) 0px 2px 0px 0px;
 }
 
 .dateBig {
-    color: #FFCC0E;
-    font-weight: bolder;
-    font-size: 4em;
-    margin: 0;
+  color: #ffcc0e;
+  font-weight: bolder;
+  font-size: 4em;
+  margin: 0;
 }
 
 .dateSmall {
-    font-weight: bold;
-    font-size: 1.1em;
-    margin: 0 0 0.5em 0;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin: 0 0 0.5em 0;
 }
 
 .themeIcon {
-    width: 70px;    
-    margin: 0 0 0.5em 0;
+  width: 70px;
+  margin: 0 0 0.5em 0;
 }
 
 .themeTitle {
-    /* color: #e6b710; */
-    font-weight: bold;
-    font-size: 1.1em;
-    margin: 0 0 0.5em 0;
+  /* color: #e6b710; */
+  font-weight: bold;
+  font-size: 1.1em;
+  margin: 0 0 0.5em 0;
 }
 
 ul {
-    margin: 0 auto;
-    width: 80%;
+  margin: 0 auto;
+  width: 80%;
 }
 
 li {
-    /* list-style-type: "→  "; */
-    list-style-type: "✓  ";
-    
+  /* list-style-type: "→  "; */
+  list-style-type: "✓  ";
 }
 
 /* FOOTER */
 footer {
-    text-align: center;
-    line-height: 80px;
-    height: 80px;
-    /* max-width: 1200px; */
-    margin: 0 auto;
-    background-color: rgb(240, 240, 240);
+  text-align: center;
+  line-height: 80px;
+  height: 80px;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  background-color: rgb(240, 240, 240);
 }
-
-
